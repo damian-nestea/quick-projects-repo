@@ -82,7 +82,9 @@ header{
   border-bottom-right-radius: 0.25rem;
 }
 
-#home-sobre-nos img:hover{
+#home-sobre-nos img:hover,
+.card-tipos-produto img:hover
+{
   opacity: 0.5;
 }
 
