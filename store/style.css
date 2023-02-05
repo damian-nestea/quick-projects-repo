@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #F2f2f2;
+}
+
 header{
   padding: 3vh 2vw;
   display:flex;
@@ -25,11 +29,11 @@ header{
 
 #header-nav a{
   text-decoration: none;
-  color: #FFF;
+  color: #000;
   font-size: 1.35rem;
   font-weight: bold;
-  background-color: #050505;
-  padding: 1vh 2vw;
+  background-color: #FFF;
+  padding: 1.2vh 2vw;
   border-radius: 0.25vw;
 }
 
@@ -60,7 +64,8 @@ header{
 #home-sobre-nos a{
   background-color:#ff6347;
   text-decoration: none;
-  color: #050505;
+  text-transform: uppercase;
+  color: #FFF;
   font-weight: bold;
   padding:1vh 2vw;
   margin-left: auto;
@@ -71,4 +76,8 @@ header{
 #home-sobre-nos p,
 #home-sobre-nos a{
   text-align: end;
+}
+
+#home-sobre-nos{
+  line-height: 1.5rem;
 }
