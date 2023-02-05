@@ -6,6 +6,7 @@
 
 body{
   background-color: #F2f2f2;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 header{
@@ -37,6 +38,12 @@ header{
   border-radius: 0.25vw;
 }
 
+#header-nav a:hover{
+  border:0.05rem solid #ff6347;
+  color:#ff6347;
+
+}
+
 #main-content{
   margin: 10vw 15vw;
 }
@@ -53,12 +60,12 @@ header{
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(3,1fr);
   align-items: center;
-  gap:1rem;
 }
 
 #home-sobre-nos img{
   grid-column: 2;
   grid-row: 1 / 4;
+  margin-left: 1rem;
 }
 
 #home-sobre-nos a{
