@@ -1,0 +1,74 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 3vh 2vw;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10vh;
+}
+
+#logo-loja{
+  width: 20vw;
+}
+
+#header-nav ul{
+  display:flex;
+  gap:7vw;
+  justify-content: center;
+  list-style: none;
+}
+
+#header-nav a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.35rem;
+  font-weight: bold;
+  background-color: #050505;
+  padding: 1vh 2vw;
+  border-radius: 0.25vw;
+}
+
+#main-content{
+  margin: 10vw 15vw;
+}
+
+#home-sobre-nos img,
+#home-tipo-produtos img{
+  display:block;
+  width: 100%;
+}
+
+#home-sobre-nos{
+  background-color: #F0FFFF;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+  align-items: center;
+  gap:1rem;
+}
+
+#home-sobre-nos img{
+  grid-column: 2;
+  grid-row: 1 / 4;
+}
+
+#home-sobre-nos a{
+  background-color:#ff6347;
+  text-decoration: none;
+  color: #050505;
+  font-weight: bold;
+  padding:1vh 2vw;
+  margin-left: auto;
+  border-radius: 0.25vw;
+}
+
+#home-sobre-nos h1,
+#home-sobre-nos p,
+#home-sobre-nos a{
+  text-align: end;
+}
